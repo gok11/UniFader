@@ -1,4 +1,4 @@
-# UniFader
+# UniFader [![GitHub license](https://img.shields.io/github/license/gok11/UniFader)](https://github.com/gok11/UniFader/blob/master/LICENSE)
 
 UniFader is a transition helper components for Unity.
 
