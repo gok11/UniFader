@@ -56,7 +56,7 @@ Repeat invert twice
 
 ## Tips
 
-### Used By Default
+### Used As Instance
 
 If this is enabled, the fader will be singleton instance. It is referenced from `UniFader.Instance` and it will be set `DontDestroyOnLoad`.
 
