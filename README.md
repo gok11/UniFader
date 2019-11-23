@@ -100,7 +100,7 @@ using MB.UniFader;
 
 public class FadeTest : MonoBehaviour
 {
-    void Update()
+    void Start()
     {
         UniFader.Instance.FadeOut(() =>
         {
