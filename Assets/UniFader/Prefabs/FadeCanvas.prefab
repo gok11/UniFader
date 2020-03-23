@@ -63,7 +63,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: e2f8c3ce25a5640bd9f7579f8af06c8f, type: 3}
+  m_Sprite: {fileID: 0}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -252,5 +252,5 @@ MonoBehaviour:
       type: {class: GradientMaskFade, ns: MB.UniFader, asm: Assembly-CSharp}
       data:
         ruleMaterial: {fileID: 2100000, guid: b793591b72b494598a45ff7c123f8cb8, type: 2}
-        ruleTexture: {fileID: 2800000, guid: e87ec6eaebb7343c6a0bb3e53de305b6, type: 3}
-        fadeOutInMode: 2
+        ruleTexture: {fileID: 2800000, guid: 0a8a38232dfb64e8d931267edf4fd8bc, type: 3}
+        fadeOutInMode: 0

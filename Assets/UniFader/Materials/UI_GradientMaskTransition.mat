@@ -20,7 +20,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _GradientMaskTex:
-        m_Texture: {fileID: 2800000, guid: e87ec6eaebb7343c6a0bb3e53de305b6, type: 3}
+        m_Texture: {fileID: 2800000, guid: 986a9ce97243c409d8211f3d7bfbdf73, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
@@ -29,11 +29,11 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - FadeMode: 1
-    - _AlphaRate: 0.5
+    - _AlphaRate: 0
     - _ColorMask: 15
     - _CutoutEdgeFactor: 0.02
     - _FadeMode: 1
-    - _RegularDirection: 1
+    - _RegularDirection: 0
     - _Stencil: 0
     - _StencilComp: 8
     - _StencilOp: 0

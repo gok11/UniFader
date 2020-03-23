@@ -94,13 +94,13 @@ namespace MB.UniFader
                             () =>
                             {
                                 if (fadePattern.type == names[idx]) return;
-                                
+
                                 // Type.GetType doesn't work
                                 Undo.RegisterCompleteObjectUndo(uniFader, "Change Fade Pattern");
                                 var fadeType = TypeUtility.GetTypeByName(names[idx]);
                                 var fadeInstance = (IFadePattern)Activator.CreateInstance(fadeType);
                                 uniFader.FadePattern = fadeInstance;
-
+                                
                                 var image = (fadeTarget.objectReferenceValue as System.Object) as Image;
                                 image.material = null;
                             });
